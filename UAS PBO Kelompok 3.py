@@ -20,7 +20,7 @@ def generate_password(event=None):
 root = tk.Tk()
 root.title("UAS PBO Kelompok 3")
 
-# Background color
+# Warna Latar
 root.configure(bg="#e1e1e1")
 
 # Header
@@ -31,14 +31,14 @@ header_label.pack(pady=20)
 length_frame = tk.Frame(root, bg="#e1e1e1")
 length_frame.pack()
 
-length_label = tk.Label(length_frame, text="Panjang Password:", font=("Times New Romanl", 10), bg="#e1e1e1")
+length_label = tk.Label(length_frame, text=" Panjang Password :", font=("Times New Romanl", 10), bg="#e1e1e1")
 length_label.pack(side=tk.LEFT, padx=10)
 
 length_entry = tk.Entry(length_frame, font=("Times New Roman", 10))
 length_entry.pack(side=tk.LEFT, padx=10)
-length_entry.bind('<Return>', generate_password)  # Mengikat event Return ke fungsi generate_password
+length_entry.bind('<Return>', generate_password)  
 
-# Generate Button
+#  Pembuatan Generate Button
 generate_button = tk.Button(root, text="Generate", font=("Times New Roman", 10), bg="#A9A9A9", command=generate_password)
 generate_button.pack(pady=10)
 
