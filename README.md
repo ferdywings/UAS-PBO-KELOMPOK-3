@@ -8,6 +8,7 @@ Dan program ini bisa membuatkan kode dengan panjang password yang berbeda-beda s
 
 pada program ini kami memakai import tkinter,random,dan string yang dimana import tkinter berguna membuat antarmuka grafis (GUI) sederhana, import random berguna untuk mengacak angka dan huruf alfabet secara random, dan import string berguna untuk menyediakan beberapa fungsi dan konstanta yang berkaitan dengan manipulasi string. 
 
-
+generate_password adalah fungsi yang dipanggil saat tombol atau event tertentu terjadi. Fungsi ini digunakan untuk menghasilkan password acak berdasarkan panjang yang diinputkan oleh pengguna.
+Variabel characters berisi kombinasi dari string huruf (baik huruf besar maupun kecil), angka, dan tanda baca. Ini adalah himpunan karakter yang akan digunakan untuk menghasilkan password acak.
 
 
