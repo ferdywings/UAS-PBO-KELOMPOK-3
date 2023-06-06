@@ -5,3 +5,9 @@ Membuat password menggunakan python
 
 Kami membuat program ini untuk membantu membuat password seseorang secara random yang menampilkan angka huruf besar dan kecil serta symbol.
 Dan program ini bisa membuatkan kode dengan panjang password yang berbeda-beda sesuai dengan keinginan sendiri. Jika kita mengetik angka 10 ditabel panjang password maka hasil dari password tersebut akan secara random mengeluarkan angka,huruf besar,huruf kecil dan symbol.
+
+pada program ini kami memakai import tkinter,random,dan string yang dimana import tkinter berguna membuat antarmuka grafis (GUI) sederhana, import random berguna untuk mengacak angka dan huruf alfabet secara random, dan import string berguna untuk menyediakan beberapa fungsi dan konstanta yang berkaitan dengan manipulasi string. 
+
+
+
+
